@@ -632,7 +632,6 @@ h5 {
     .card:hover {
     font-size: 0;
     width: 25rem;
-    height: ;
   }
 
   .card:hover .card-title {
@@ -642,7 +641,8 @@ h5 {
 
   .card:hover img {
     z-index: 998;
-    width: 22.5rem;
+    width: 23.5rem;
+    margin-left: -4px;
   }
 }
 
