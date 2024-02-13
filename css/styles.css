@@ -307,6 +307,9 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 4;
   padding: 16px;
+  /* justify-content: center; */
+  text-align: left;
+  margin-top: 40px;
 }
 
 .content>h2 {
@@ -609,10 +612,15 @@ h5 {
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
   transition: all 0.7s ease;
   width: 18rem;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap; */
+  height: 400px;
+  font-size: 90%;
+
+
+}
+
+.card .card-title{
+  font-size: 160%;
+  line-height: 100%;
 }
 
 .card img {
@@ -621,15 +629,21 @@ h5 {
 }
 
 @media only screen and (min-width: 901px) {
-  .card:hover {
-  font-size: 0;
-  width: 25rem;
-}
+    .card:hover {
+    font-size: 0;
+    width: 25rem;
+    height: ;
+  }
 
-.card:hover img {
-  z-index: 998;
-  width: 22.5rem;
-}
+  .card:hover .card-title {
+    font-size: 0px;
+    height: 0px;
+  }
+
+  .card:hover img {
+    z-index: 998;
+    width: 22.5rem;
+  }
 }
 
 /********************** My Projects section **********************/
@@ -701,6 +715,7 @@ h5 {
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   padding: 30px;
+  
 
   @media screen and (max-width: 991px) {
     grid-template-columns: 1fr;
@@ -723,6 +738,7 @@ h5 {
   width: 100%;
   margin-inline: auto;
   transition: all 0.5s ease;
+  
 }
 
 .projectCard:hover {
@@ -736,6 +752,7 @@ h5 {
   background-clip: padding-box;
   border-radius: 25px;
   padding: 40px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
 
   img {
     margin-bottom: 32px;
