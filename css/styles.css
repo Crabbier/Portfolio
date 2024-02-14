@@ -685,10 +685,6 @@ h5 {
   /* 0.577=tan(30deg)*/
 }
 
-.myProjects h1 {
-  /* text-shadow: 3px 3px 10px rgb(0, 0, 0); */
-}
-
 .projects {
   width: 1200px !important;
   padding: 0 !important;
@@ -850,4 +846,20 @@ h5 {
 .myForm {
   max-width: 80%;
   width: clamp(.7vw, 350px, 500px);
+}
+
+
+.myData iframe {
+  border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 10px;
+  
+}
+
+@media only screen and (max-width: 901px) {
+  .myData iframe {
+    width: 70vw;
+  }
 }

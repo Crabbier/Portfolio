@@ -1,3 +1,7 @@
+/*********************************************************
+ *                 navbar hide and show                  *      
+ *********************************************************/
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -8,6 +12,10 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+/*********************************************************
+ *                 Resume Download                       *      
+ *********************************************************/
 
 function downloadResume() {
   // Assuming 'resume.pdf' is the name of your PDF file
@@ -43,3 +51,7 @@ function sendEmail() {
 
   }).then
 }
+
+/*********************************************************
+ *                 google maps integration               *      
+ *********************************************************/
