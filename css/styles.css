@@ -2,7 +2,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   scroll-behavior: smooth;
   max-width: 100vw;
@@ -16,6 +15,7 @@ body {
   color: white;
   grid-auto-flow: column;
   max-width: 100%;
+  font-weight: 120%;
 }
 
 header {
@@ -72,22 +72,6 @@ h1 {
   align-items: center;
   right: 0;
 }
-
-/* .socialMediaHeader {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  justify-items: center;
-}
-
-.socialMediaHeader img {
-  filter: drop-shadow(3px 3px 10px rgb(0, 0, 0));
-}
-
-.myTitle {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  text-shadow: 3px 3px 10px rgb(0, 0, 0);
-} */
 
 .mainMenu nav {
   width: 100vw;
@@ -191,88 +175,15 @@ h1 {
   }
 
   .profileCard:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transform: scale(1.1);
-  }
-
-  .myExperience {
-    height: 550px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
   }
 
   .myExperience ul {
     transition: all 0.3s ease;
     text-align: left;
-    /* justify-items: left; */
     font-size: 0%;
   }
-/* 
-  .arrow {
-    width: 10px;
-    transform: rotate(180deg);
-    transition: all 0.5s ease;
-    align-self: right;
-  }
-
-  .exp h3 {
-    display: flex;
-    align-content: space-between;
-  }
-
-  #alzh-Ins .arrow,
-  #thincode .arrow {
-    display: flex;
-    align-content: space-between;
-    margin-left: 90px;
-  }
-
-  #Rev:hover ul {
-    font-size: 100%;
-  }
-
-  #Rev:hover .arrow {
-    transform: rotate(270deg);
-  }
-
-  #Rev:hover~#alz-Ins img {
-    height: 0%;
-  }
-
-  #Rev:hover~#alzh-Ins h3,
-  #Rev:hover~#thincode h3,
-  #Rev:hover~#alzh-Ins h5,
-  #Rev:hover~#thincode h5 {
-    font-size: 0%;
-  }
-
-  #alzh-Ins:hover ul {
-    font-size: 100%;
-  }
-
-  #alzh-Ins:hover .arrow {
-    transform: rotate(270deg);
-  }
-
-  #alzh-Ins:hover~#Rev h3,
-  #alzh-Ins:hover~#thincode h3,
-  #alzh-Ins:hover~#Rev h5,
-  #alzh-Ins:hover~#thincode h5 {
-    font-size: 0%;
-  }
-
-  #thincode:hover ul {
-    font-size: 100%;
-  }
-
-  #thincode:hover .arrow {
-    transform: rotate(270deg);
-  }
-
-  #thincode:hover~#alzh-Ins h3,
-  #thincode:hover~#Rev h3,
-  #thincode:hover~#alzh-Ins h5,
-  #thincode:hover~#Rev h5 {
-    font-size: 0%;
-  } */
   
 }
 
@@ -325,12 +236,8 @@ h1 {
       1.75vw, 1rem);
   font-weight: 100%;
   margin: 6px 0;
-  color: black;
+  color: rgb(26, 26, 26);
 }
-
-/* .content a {
-  color: black;
-} */
 
 .chips {
   display: flex;
@@ -420,7 +327,7 @@ h1 {
   .profileCard h2 {
     font-size: 120%;
     font-weight: bold;
-    color: black;
+    color: rgb(20, 20, 20);
   }
 
   .profileCard p {
@@ -621,6 +528,7 @@ h5 {
 .card .card-title{
   font-size: 160%;
   line-height: 100%;
+  font-weight: 80%;
 }
 
 .card img {
